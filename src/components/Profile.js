@@ -13,10 +13,11 @@ const Profile = () => {
         <div
           value="profile"
           onClick={() => handleChange("profile")}
-          className="h-10 flex items-center gap-1 text-sm font-bold text-gray-500 cursor-pointer"
+          className="h-10 absolute pl-9 flex items-center gap-1 text-sm font-bold text-gray-500 cursor-pointer relative"
         >
           <AiOutlineChrome />
           Profile
+          <div className="absolute left-0 bg-black" />
         </div>
       </div>
       <div
